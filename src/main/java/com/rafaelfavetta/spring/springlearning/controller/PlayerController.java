@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping
-public class NinjaController {
+public class PlayerController {
 
     @GetMapping("/welcome")
     public String welcome() {

@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 
 @NoArgsConstructor
 @AllArgsConstructor
-public class NinjaModel {
+public class PlayerModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
