@@ -2,6 +2,7 @@ package com.rafaelfavetta.spring.springlearning.Model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 @Entity
@@ -9,6 +10,7 @@ import lombok.NoArgsConstructor;
 
 @NoArgsConstructor
 @AllArgsConstructor
+@Getter
 public class PlayerModel {
 
     @Id
@@ -17,5 +19,4 @@ public class PlayerModel {
     private String name;
     private String surname;
     private int age;
-
 }
