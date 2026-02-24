@@ -15,7 +15,7 @@ public class PlayerModel {
     @GeneratedValue(strategy = GenerationType.UUID)
     private long id;
     private String name;
-    private String email;
+    private String surname;
     private int age;
 
 }
