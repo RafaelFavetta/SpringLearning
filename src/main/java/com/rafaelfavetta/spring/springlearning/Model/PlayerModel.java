@@ -6,7 +6,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name = "tb_ninjas")
+@Table(name = "tb_players")
 
 @NoArgsConstructor
 @AllArgsConstructor
