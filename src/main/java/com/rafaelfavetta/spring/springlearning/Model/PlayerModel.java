@@ -24,6 +24,3 @@ public class PlayerModel {
     @JoinColumn(name = "team_id")
     private TeamModel team;
 }
-
-
-
