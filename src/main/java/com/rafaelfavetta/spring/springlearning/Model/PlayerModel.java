@@ -19,4 +19,11 @@ public class PlayerModel {
     private String name;
     private String surname;
     private int age;
+
+    @ManyToOne
+    @JoinColumn(name = "team_id")
+    private TeamModel team;
 }
+
+
+
