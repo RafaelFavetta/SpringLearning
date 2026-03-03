@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import java.util.UUID;
 
 @Entity
 @Table(name = "tb_players")
@@ -15,7 +16,7 @@ public class PlayerModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
-    private long id;
+    private UUID id;
     private String name;
     private String surname;
     private int age;
