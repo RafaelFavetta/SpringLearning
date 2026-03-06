@@ -1,4 +1,4 @@
-package com.rafaelfavetta.spring.springlearning.Model;
+package com.rafaelfavetta.spring.springlearning.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
