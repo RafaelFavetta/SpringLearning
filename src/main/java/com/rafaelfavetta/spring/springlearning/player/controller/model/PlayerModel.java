@@ -22,6 +22,9 @@ public class PlayerModel {
     private String surname;
     private int age;
 
+    @Column(unique = true)
+    private int athleteNumber;
+
     @ManyToOne
     @JoinColumn(name = "team_id")
     private TeamModel team;
