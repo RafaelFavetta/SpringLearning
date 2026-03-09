@@ -3,8 +3,8 @@ spring:
     name: SpringLearning
   datasource:
     url: jdbc:postgresql://localhost:5444/springlearning
-    username: rafones
-    password: rafones
+    username: spring
+    password: spring
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
