@@ -1,5 +1,6 @@
 package com.rafaelfavetta.spring.springlearning.team.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.rafaelfavetta.spring.springlearning.player.model.PlayerModel;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -25,5 +26,6 @@ public class TeamModel {
     private Conference conference;
 
     @OneToMany(mappedBy = "team", cascade = CascadeType.ALL)
+    @JsonIgnore
     private List<PlayerModel> players;
 }
