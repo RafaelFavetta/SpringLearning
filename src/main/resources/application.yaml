@@ -2,9 +2,9 @@ spring:
   application:
     name: SpringLearning
   datasource:
-    url: jdbc:postgresql://localhost:5444/springlearning
-    username: spring
-    password: spring
+    url: jdbc:postgresql://${POSTGRES_HOST}:${POSTGRES_PORT}/${POSTGRES_DB}
+    username: ${POSTGRES_USER}
+    password: ${POSTGRES_PASSWORD}
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
