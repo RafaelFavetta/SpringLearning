@@ -1,0 +1,2 @@
+ALTER TABLE tb_teams
+ADD COLUMN number_of_titles INTEGER DEFAULT 0;
