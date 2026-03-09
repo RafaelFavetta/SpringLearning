@@ -1,10 +1,12 @@
-package com.rafaelfavetta.spring.springlearning.player.controller.model;
+package com.rafaelfavetta.spring.springlearning.player.model;
 
 import com.rafaelfavetta.spring.springlearning.team.model.TeamModel;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
+
 import java.util.UUID;
 
 @Entity
@@ -13,6 +15,7 @@ import java.util.UUID;
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
+@Setter
 public class PlayerModel {
 
     @Id
