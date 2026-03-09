@@ -26,7 +26,7 @@ public class PlayerService {
         return playerRepository.save(player);
     }
 
-    public PlayerModel updatePlayer(UUID id, PlayerModel player) {
+    public PlayerModel updatePlayerById(UUID id, PlayerModel player) {
         PlayerModel existingPlayer = playerRepository.findById(id).orElse(null);
         if (existingPlayer != null) {
             existingPlayer.setName(player.getName());
