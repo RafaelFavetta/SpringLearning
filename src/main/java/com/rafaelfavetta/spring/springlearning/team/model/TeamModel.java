@@ -1,6 +1,6 @@
 package com.rafaelfavetta.spring.springlearning.team.model;
 
-import com.rafaelfavetta.spring.springlearning.player.controller.model.PlayerModel;
+import com.rafaelfavetta.spring.springlearning.player.model.PlayerModel;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
