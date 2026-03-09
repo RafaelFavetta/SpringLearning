@@ -1,15 +1,28 @@
 package com.rafaelfavetta.spring.springlearning.player.controller;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping
+@RequestMapping("/players")
 public class PlayerController {
 
-    @GetMapping("/welcome")
-    public String welcome() {
-        return "Hello, everyone!";
+    @PostMapping("/createPlayer")
+    public void createPlayer() {
+    }
+
+    @GetMapping("/getAllPlayers")
+    public void getAllPlayers() {
+    }
+
+    @GetMapping("/getPlayerById/{id}")
+    public void getPlayerById() {
+    }
+
+    @PutMapping("/updatePlayerById/{id}")
+    public void updatePlayerById() {
+    }
+
+    @DeleteMapping("/deletePlayerById/{id}")
+    public void deletePlayerById() {
     }
 }
